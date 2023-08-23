@@ -1,0 +1,65 @@
+/* App Container */
+.App {
+  text-align: center;
+}
+
+/* Header */
+.App-header {
+  background-color: #000f2e;
+  padding: 20px;
+  color: rgb(88, 149, 255);
+  font-size: 45px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(130, 255, 81);
+}
+
+/* Main Content */
+.App-main {
+  padding: 20px;
+}
+
+/* Character List */
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #5fff4d;
+}
+
+/* Filter Form */
+.filter-form {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"],
+select {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
